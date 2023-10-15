@@ -11,6 +11,8 @@ background-image:url(pexels-jahoo-clouseau-382177\ \(1\).jpg);
     justify-content: center;
     background-position: center;
     background-size: cover;
+    font-family: poppins;
+  
 
 }
 
@@ -111,7 +113,10 @@ background-image:url(pexels-jahoo-clouseau-382177\ \(1\).jpg);
 
 
 }
-
+input{
+    color: 3px solid black;
+ 
+}
 .bx-message-dots {
     color: bisque;
     width: 10%;

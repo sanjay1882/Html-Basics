@@ -20,7 +20,7 @@ table tr {
     height: 65px;
 }
 
-.toolbar {
+.container-fluid {
     border: 1px solid black;
     height: 65px;
     width: 100%;
@@ -28,12 +28,12 @@ table tr {
 
 }
 
-.toolbar .title {
+.container-fluid .title {
 
     margin-left: 3px;
     width: 50%;
     height: 100%;
-    color: blue;
+    color: green;
 
 
 }
@@ -46,12 +46,12 @@ ar .home {
 }
 
 
-.toolbar .blank {
+.container-fluid .blank {
     width: 30%;
 }
 
 
-.toolbar .menu {
+.container-fluid .menu {
     width: auto;
 
     padding: 5px;
@@ -60,26 +60,26 @@ ar .home {
 
 
 
-.toolbar .dashboard {
+.container-fluid .dashboard {
     width: auto;
     padding: 5px;
 
 }
 
-.toolbar .about {
+.container-fluid .about {
     padding: 5px;
 
     width: auto;
 }
 
-.toolbar .account {
+.container-fluid .account {
     width: auto;
 
     padding: 5px;
 
 }
 
-.toolbar a {
+.container-fluid a {
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -93,45 +93,31 @@ ar .home {
 
 }
 
-.toolbar .account a {
+.container-fluid .account a {
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
 
 }
 
-.toolbar .account a:hover {
+.container-fluid .account a:hover {
     color: rgb(141, 138, 138);
     transition: 0.2s;
     border-bottom: rgb(141, 138, 138);
 }
 
-.toolbar .help a:hover {
+.container-fluid .help a:hover {
     color: rgb(141, 138, 138);
     transition: 0.2s;
     border-bottom: rgb(141, 138, 138);
 }
 
-.toolbar .dashboard a:hover {
+.container-fluid .dashboard a:hover {
     color: rgb(141, 138, 138);
     transition: 0.2s;
     border-bottom: rgb(141, 138, 138);
 }
 
-.toolbar .about a:hover {
-    color: rgb(141, 138, 138);
-    transition: 0.2s;
-    border-bottom: rgb(141, 138, 138);
-}
-
-
-
-.toolbar .home a:hover {
-    color: rgb(141, 138, 138);
-    transition: 0.2s;
-    border-bottom: rgb(141, 138, 138);
-}
-
-.toolbar .menu a:hover {
+.container-fluid .about a:hover {
     color: rgb(141, 138, 138);
     transition: 0.2s;
     border-bottom: rgb(141, 138, 138);
@@ -139,6 +125,17 @@ ar .home {
 
 
 
+.container-fluid .home a:hover {
+    color: rgb(141, 138, 138);
+    transition: 0.2s;
+    border-bottom: rgb(141, 138, 138);
+}
+
+.container-fluid .menu a:hover {
+    color: rgb(141, 138, 138);
+    transition: 0.2s;
+    border-bottom: rgb(141, 138, 138);
+}
 
 
 
@@ -148,22 +145,25 @@ ar .home {
 
 
 
-.toolbar .menu a {
+
+
+
+.container-fluid .menu a {
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
 }
 
-.toolbar .about a {
+.container-fluid .about a {
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
 }
 
-.toolbar .home a {
+.container-fluid .home a {
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
 }
 
-.toolbar .dashboard a {
+.container-fluid .dashboard a {
     color: aliceblue;
     border-bottom: 2px solid aliceblue;
 }
@@ -198,15 +198,24 @@ ar .home {
 
 
 }
-.content a{
-height:15%; 
-width:30%;
-margin-left:45%;
-}
-.content a:hover{
 
-   background-color:violet;
-    transition:0.3s;
+.content a {
+    font-size: 50px;
+    padding: 3px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(86, 5, 97);
+    
+    border-radius: 27px;
+    margin-left:50%;
+    cursor:pointer;
+}
+
+.content a:hover {
+
+    background-color: rgb(180, 41, 180);
+    transition: 0.3s;
+    color: black;
 }
 
 .content h1:hover {
